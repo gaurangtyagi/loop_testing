@@ -1,6 +1,9 @@
 #include<iostream>
     using namespace std;
-int triangle(int a1)
+
+//Introducing Functional Programming in A code helps it to run fast and get less bugs 
+
+int triangle(int a1) // Declaring the function
 {
     for (int i = 1; i <=a1; i++)
         {
@@ -17,7 +20,7 @@ int triangle(int a1)
         cout << "Enter the length of base of triangle ";
         cin >> a;
         
-        triangle(a);
+        triangle(a); // Calling the funciton
         
         return 0;
     }
